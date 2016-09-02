@@ -14,7 +14,7 @@ var latex = "\\text{Outside ce function} \\ce{H2O <=> H+ + O^2-}";
 
 function mchemFilter(element){
 	return element.replace(/\\ce\{[\s\S]*?\}/g,function(block){
-		return mchem.parse(block.substr(4,block.length-5));
+		return mchem.parse(block.substr(3));
 	});
 }
 

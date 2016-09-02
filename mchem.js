@@ -1307,8 +1307,8 @@ var texify = {
 			}
 		},
 		'roman numeral': function (buf) { return "\\mathrm{"+buf.p1+"}"; },
-		'state of aggregation': function (buf) { return "\\mskip3mu "+texify.go(buf.p1); },
-		'state of aggregation subscript': function (buf) { return "\\mskip2mu "+texify.go(buf.p1)+"\\mskip1mu "; },
+		'state of aggregation': function (buf) { return "\\ "+texify.go(buf.p1); },
+		'state of aggregation subscript': function (buf) { return "\\ "+texify.go(buf.p1)+"\\ "; },
 		'bond': function (buf) {
 			var ret = texify.bonds[buf.kind];
 			if (!ret) {

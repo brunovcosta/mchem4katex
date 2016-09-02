@@ -25,7 +25,7 @@ adaptations:
 
 remove spaces
 "\\vphantom","\\hphantom","\\mathrel" -> ""
-"\\mkern3mu" -> "\\ "
+"\\mkern*","\\mskip*" -> "\\ "
 
 remove long from arrows
 "\\long*" -> "\\*" 

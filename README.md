@@ -20,3 +20,12 @@ function mchemFilter(element){
 
 console.log(katex.renderToString(mchemFilter(latex)));
 ```
+
+adaptations:
+
+remove spaces
+"\\vphantom","\\hphantom","\\mathrel" -> ""
+"\\mkern3mu" -> "\\ "
+
+remove long from arrows
+"\\long*" -> "\\*" 

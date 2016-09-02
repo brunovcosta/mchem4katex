@@ -281,7 +281,7 @@ mchem = {
 					arrow += "{"+above+"}";
 					arrow = "\\mathrel{\\x"+arrow+"}";
 				} else {
-					arrow = "\\long"+arrow+" ";
+					arrow = "\\"+arrow+" ";
 				}
 				this.tex += arrow;
 			},

@@ -1464,6 +1464,6 @@ var texify = {
 
 mchem = {
 	parse: function(string) {
-		return texify.go(mhchemParser.go(string));
+		return texify.go(mhchemParser.go(string,"tex-math"));
 	}
 }

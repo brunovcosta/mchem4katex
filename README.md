@@ -1,4 +1,4 @@
-#mchemJS
+#mchem4katex
 This project is an simple adaptation of [mhchem/MathJax-mhchem](https://github.com/mhchem/MathJax-mhchem) to be used with [Khan/KaTeX](https://github.com/Khan/KaTeX/).
 
 ##Usage

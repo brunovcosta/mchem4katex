@@ -16,5 +16,7 @@ remove spaces
 remove long from arrows
 "\\long*" -> "\\*" 
 
+replacing xrightarrow and alike with arrays
+
 ##Warning
 This is not intended to be an official Mchem support to KaTeX.

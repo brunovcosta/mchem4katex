@@ -1,7 +1,7 @@
-#mchem4katex
+# mchem4katex
 This project is an simple adaptation of [mhchem/MathJax-mhchem](https://github.com/mhchem/MathJax-mhchem) to be used with [Khan/KaTeX](https://github.com/Khan/KaTeX/).
 
-##Usage
+## Usage
 ```javascript
 var latex = mchem.parse("C6H12O + O2 -> CO2 + H2O");
 console.log(katex.renderToString(latex));

@@ -18,5 +18,8 @@ remove long from arrows
 
 replacing xrightarrow and alike with arrays
 
-##Warning
+## TODO
+ Refine spacing details.
+
+## Warning
 This is not intended to be an official Mchem support to KaTeX.
